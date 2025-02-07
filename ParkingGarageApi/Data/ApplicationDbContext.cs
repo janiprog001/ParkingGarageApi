@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ParkolohazAPI.Models;
+using ParkingGarageApi.Models;
 
 namespace ParkolohazAPI.Data
 {

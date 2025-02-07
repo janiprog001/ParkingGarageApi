@@ -1,4 +1,4 @@
-﻿namespace ParkolohazAPI.Models
+﻿namespace ParkingGarageApi.Models
 {
     /// <summary>
     /// A felhasználó adatait tartalmazó modell.

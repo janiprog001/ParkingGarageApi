@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ParkolohazAPI.DTOs;
-using ParkolohazAPI.Services.Interfaces;
+using ParkingGarageApi.DTOs;
+using ParkingGarageApi.Services.Interfaces;
 
 namespace ParkolohazAPI.Controllers
 {
