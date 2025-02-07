@@ -4,7 +4,7 @@ using ParkingGarageApi.Data;
 using ParkingGarageApi.Models;
 using ParkingGarageApi.Services.Interfaces;
 
-namespace ParkolohazAPI.Services
+namespace ParkingGarageApi.Services
 {
     /// <summary>
     /// A parkolóhelyek kezelését megvalósító szolgáltatás.

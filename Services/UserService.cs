@@ -2,10 +2,9 @@
 using ParkingGarageApi.Models;
 using ParkingGarageApi.Data;
 using ParkingGarageApi.DTOs;
-using ParkingGarageApi.Models;
 using ParkingGarageApi.Services.Interfaces;
 
-namespace ParkolohazAPI.Services
+namespace ParkingGarageApi.Services
 {
     /// <summary>
     /// A felhasználói regisztrációt és bejelentkezést kezelő szolgáltatás.
@@ -57,6 +56,11 @@ namespace ParkolohazAPI.Services
                 throw new Exception("Érvénytelen felhasználónév vagy jelszó.");
             }
             return user;
+        }
+
+        public Task LoginAsync(Microsoft.AspNetCore.Identity.Data.LoginRequest request)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity.Data;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ParkingGarageApi.DTOs;
 using ParkingGarageApi.Services.Interfaces;
 
-namespace ParkolohazAPI.Controllers
+namespace ParkingGarageApi.Controllers
 {
     /// <summary>
     /// Az autentikációs műveleteket kezelő API controller.
@@ -45,7 +44,6 @@ namespace ParkolohazAPI.Controllers
             try
             {
                 var user = await _userService.LoginAsync(request);
-                // Itt bővíthető a JWT token generálásával, ha szükséges
                 return Ok(new { message = "Sikeres bejelentkezés", userId = user.Id });
             }
             catch (Exception ex)

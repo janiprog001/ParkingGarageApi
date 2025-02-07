@@ -2,7 +2,7 @@
 using ParkingGarageApi.DTOs;
 using ParkingGarageApi.Services.Interfaces;
 
-namespace ParkolohazAPI.Controllers
+namespace ParkingGarageApi.Controllers
 {
     /// <summary>
     /// A parkolóhelyek kezelését megvalósító API controller.

@@ -1,7 +1,7 @@
 ﻿using ParkingGarageApi.Models;
 using ParkingGarageApi.DTOs;
 
-namespace ParkolohazAPI.Services.Interfaces
+namespace ParkingGarageApi.Services.Interfaces
 {
     /// <summary>
     /// A felhasználói műveleteket definiáló szolgáltatás interfésze.
@@ -10,5 +10,6 @@ namespace ParkolohazAPI.Services.Interfaces
     {
         Task<User> RegisterAsync(RegisterRequest request);
         Task<User> LoginAsync(LoginRequest request);
+        Task LoginAsync(Microsoft.AspNetCore.Identity.Data.LoginRequest request);
     }
 }

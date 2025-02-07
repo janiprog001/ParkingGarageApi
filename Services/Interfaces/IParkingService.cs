@@ -1,6 +1,6 @@
 ﻿using ParkingGarageApi.Models;
 
-namespace ParkolohazAPI.Services.Interfaces
+namespace ParkingGarageApi.Services.Interfaces
 {
     /// <summary>
     /// A parkolóhely kezelést definiáló szolgáltatás interfésze.

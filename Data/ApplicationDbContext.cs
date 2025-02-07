@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ParkingGarageApi.Models;
 
-namespace ParkolohazAPI.Data
+namespace ParkingGarageApi.Data
 {
     /// <summary>
     /// Az adatbázis kontextus, amely az Entity Framework Core segítségével kezeli az adatbázis műveleteket.
